@@ -1,30 +1,40 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Header from "../components/header";
-import About from "../components/about";
-import Projects from "../components/projects";
-import Contact from "../components/contact";
+import Header from "../sections/header"
+import About from "../sections/about"
+import Projects from "../sections/projects"
+import Contact from "../sections/contact"
 
 import "../styles/bootstrap/bootstrap-grid.min.css"
+import styles from "../styles/index.module.css"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Kenny Hermawan" />
-    <section>
-      <Header />
-    </section>
-    <section>
-      <About />
-    </section>
-    <section>
-      <Projects />
-    </section>
-    <section>
-      <Contact />
-    </section>
+    <div className="container">
+      <div className={'row ' + styles.header}>
+        <div className="col-12">
+          <Header />
+        </div>
+      </div>
+      <div className={'row ' + styles.about}>
+        <div className="col-12">
+          <About />
+        </div>
+      </div>
+      <div className={'row ' + styles.projects}>
+        <div className="col-12">
+          <Projects />
+        </div>
+      </div>
+      <div className={'row ' + styles.contact}>
+        <div className="col-12">
+          <Contact />
+        </div>
+      </div>
+    </div>
   </Layout>
 )
 
