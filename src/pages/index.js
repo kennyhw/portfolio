@@ -13,27 +13,17 @@ import styles from "../styles/index.module.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Kenny Hermawan" />
-    <div className="container">
-      <div className={'row ' + styles.header}>
-        <div className="col-12">
-          <Header />
-        </div>
-      </div>
-      <div className={'row ' + styles.about}>
-        <div className="col-12">
-          <About />
-        </div>
-      </div>
-      <div className={'row ' + styles.projects}>
-        <div className="col-12">
-          <Projects />
-        </div>
-      </div>
-      <div className={'row ' + styles.contact}>
-        <div className="col-12">
-          <Contact />
-        </div>
-      </div>
+    <div className={styles.header}>
+        <Header />
+    </div>
+    <div className={styles.about}>
+        <About />
+    </div>
+    <div className={styles.projects}>
+        <Projects />
+    </div>
+    <div className={styles.contact}>
+        <Contact />
     </div>
   </Layout>
 )

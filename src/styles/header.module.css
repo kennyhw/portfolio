@@ -1,3 +1,28 @@
-.profilePic {
-  font-family: "Roboto";
+.sectionContainer {
+  margin: 25vh 0 25vh 0;
+  height: 50vh;
+  overflow: visible;
+}
+
+.picContainer {
+  padding: 0.55rem 0 0.55rem 0;
+  text-align: center;
+}
+
+.textContainer {
+  padding: 0.55rem 0 0.55rem 0;
+  text-align: center;
+  color: #E41376;
+}
+
+.name {
+  margin: 0 0 0 0;
+  font-size: 2.81rem;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.desc {
+  margin: 0 0 0 0;
+  font-size: 1.88rem;
+  font-family: 'IBMPlexSans', 'sans-serif';
 }
