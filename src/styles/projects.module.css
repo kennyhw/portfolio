@@ -1,0 +1,36 @@
+.sectionContainer {
+  margin: 0 0 5vh 0;
+  padding: 2.5vh 5rem 6vh 5rem;
+  overflow: visible;
+  background-color: #fff;
+  border-radius: 0 0 1rem 1rem;
+}
+
+/* TITLE BAR */
+
+.titleBar {
+  text-align: center;
+}
+
+.titleText {
+  font: bold 2rem 'Roboto', 'sans-serif';
+  margin: 1rem 0 1.2rem 0;
+  color: #E41376;
+}
+
+/* BOXES */
+
+.box {
+  background-color: #efefef;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 2rem 0 2rem 0;
+}
+
+.projectTitle {
+  font: bold 1.3rem 'Ubuntu', 'sans-serif';
+}
+
+.projectDesc {
+  font: 1.1rem 'Ubuntu', 'sans-serif';
+}

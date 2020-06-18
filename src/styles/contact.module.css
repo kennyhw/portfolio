@@ -1,0 +1,9 @@
+.sectionContainer {
+  margin: 0 0 5vh 0;
+}
+
+.flair {
+  font: bold 1.1rem 'Ubuntu', 'sans-serif';
+  color: #E41376;
+  margin: 0;
+}
