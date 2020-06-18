@@ -5,19 +5,23 @@
 }
 
 .picContainer {
-  padding: .55rem 0 .55rem 0;
+  padding: 1.5vh 0 1.5vh 0;
   text-align: center;
 }
 
 .textContainer {
-  padding: .55rem 0 .55rem 0;
+  padding: 1.5vh 0 1.5vh 0;
   text-align: center;
-  color: #E41376;
+  color: #fff;
 }
 
 .name {
   margin: 0 0 0 0;
   font: bold 2.81rem 'Roboto', 'sans-serif';
+}
+
+.nameDot {
+  color: #E41376;
 }
 
 .desc {

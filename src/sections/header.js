@@ -13,8 +13,8 @@ function Header() {
       </div>
       <div className="row">
         <div className={'col-12 ' + styles.textContainer}>
-          <p className={styles.name}>Kenny Hermawan</p>
-          <p className={styles.desc}>Undergraduate @ NUS</p>
+          <span className={styles.name}>Kenny Hermawan<span className={styles.nameDot}>.</span></span><br></br>
+          <span className={styles.desc}>Undergraduate @ NUS</span><br></br>
         </div>
       </div>
     </section>
