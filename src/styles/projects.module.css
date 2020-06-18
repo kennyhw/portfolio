@@ -1,9 +1,10 @@
 .sectionContainer {
-  margin: 0 0 5vh 0;
-  padding: 2.5vh 5rem 6vh 5rem;
+  margin: 2.5vh 5% 5vh 5%;
+  padding: 2.5vh 5rem 8vh 5rem;
   overflow: visible;
+  width: 90%;
   background-color: #fff;
-  border-radius: 0 0 1rem 1rem;
+  border-radius: 1rem;
 }
 
 /* TITLE BAR */

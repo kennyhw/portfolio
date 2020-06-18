@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Header from "../sections/header"
 import About from "../sections/about"
+import TechnicalSkills from "../sections/technical-skills"
 import Projects from "../sections/projects"
 import Contact from "../sections/contact"
 
@@ -14,16 +15,19 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Kenny Hermawan" />
     <div className={styles.header}>
-        <Header />
+      <Header />
     </div>
     <div className={styles.about}>
-        <About />
+      <About />
+    </div>
+    <div className={styles.technicalSkills}>
+      <TechnicalSkills />
     </div>
     <div className={styles.projects}>
-        <Projects />
+      <Projects />
     </div>
     <div className={styles.contact}>
-        <Contact />
+      <Contact />
     </div>
   </Layout>
 )
