@@ -4,10 +4,14 @@
   overflow: visible;
 }
 
+/* PROFILE PICTURE */
+
 .picContainer {
   padding: 1.5vh 0 1.5vh 0;
   text-align: center;
 }
+
+/* TEXT */
 
 .textContainer {
   padding: 1.5vh 0 1.5vh 0;
@@ -16,6 +20,7 @@
 }
 
 .name {
+  letter-spacing: .05rem;
   margin: 0 0 0 0;
   font: bold 2.81rem 'Roboto', 'sans-serif';
 }
@@ -25,6 +30,20 @@
 }
 
 .desc {
+  color: #E41376;
   margin: 0 0 0 0;
-  font: 1.62rem 'Ubuntu', 'sans-serif';
+  font: bold 1.3rem 'Ubuntu', 'sans-serif';
+}
+
+/* NAVIGATION */
+
+.chevronContainer {
+  margin: 7vh 0 0 0;
+  text-align: center;
+  color: #E41376;
+}
+
+.chevronButton {
+  border: 0;
+  
 }

@@ -1,4 +1,7 @@
 import React from "react"
+
+import scrollTo from "gatsby-plugin-smoothscroll"
+
 import styles from "../styles/header.module.css"
 
 function Header() {
@@ -14,7 +17,12 @@ function Header() {
       <div className="row">
         <div className={'col-12 ' + styles.textContainer}>
           <span className={styles.name}>Kenny Hermawan<span className={styles.nameDot}>.</span></span><br></br>
-          <span className={styles.desc}>Undergraduate @ NUS</span><br></br>
+          <span className={styles.desc}>Aspiring Software Developer | Undergraduate @ NUS</span><br></br>
+        </div>
+      </div>
+      <div className="row">
+        <div className={'col-12 ' + styles.chevronContainer}>
+          <a className={styles.chevronButton} onClick={() => scrollTo("#about-me")}>CLICK</a>
         </div>
       </div>
     </section>
