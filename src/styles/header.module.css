@@ -1,6 +1,6 @@
 .sectionContainer {
-  margin: 25vh 0 25vh 0;
-  height: 50vh;
+  margin: 25vh 0 8vh 0;
+  height: 67vh;
   overflow: visible;
 }
 
@@ -32,18 +32,28 @@
 .desc {
   color: #E41376;
   margin: 0 0 0 0;
-  font: bold 1.3rem 'Ubuntu', 'sans-serif';
+  font: 1.3rem 'Ubuntu', 'sans-serif';
 }
 
 /* NAVIGATION */
 
-.chevronContainer {
-  margin: 7vh 0 0 0;
+.arrowContainer {
+  margin: 15vh 0 0 0;
   text-align: center;
-  color: #E41376;
 }
 
-.chevronButton {
-  border: 0;
-  
+.arrowDown {
+  fill: #fff;
+  transition: all .35s;
+}
+
+.arrowDown:hover {
+  cursor: pointer;
+  fill: #E41376;
+  transform: scaleX(1.1) scaleY(1.15);
+}
+
+.arrowDown:active {
+  fill: #990050;
+  transform: scale(0.9);
 }
