@@ -23,7 +23,6 @@ function Header() {
       <div className="row">
         <div className={'col-12 ' + styles.arrowContainer}>
           <svg className={styles.arrowDown} onClick={() => scrollTo("#about-me")} xmlns="http://www.w3.org/2000/svg" width="35.924" height="17.962" viewBox="0 0 35.924 17.962">
-            <title>View portfolio</title>
             <g>
               <polygon points="17.962 17.962 35.924 0 0 0 17.962 17.962"/>
             </g>

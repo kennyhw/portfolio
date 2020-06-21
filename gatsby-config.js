@@ -36,8 +36,7 @@ module.exports = {
       options: {
         rule: {
           include: /assets/,
-          },
-        }
+        },
       }
     },
   ],

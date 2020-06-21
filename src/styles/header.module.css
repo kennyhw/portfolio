@@ -1,6 +1,6 @@
 .sectionContainer {
-  margin: 25vh 0 8vh 0;
   height: 67vh;
+  margin: 25vh 0 8vh 0;
   overflow: visible;
 }
 
@@ -14,15 +14,15 @@
 /* TEXT */
 
 .textContainer {
+  color: #fff;
   padding: 1.5vh 0 1.5vh 0;
   text-align: center;
-  color: #fff;
 }
 
 .name {
+  font: bold 2.81rem 'Roboto', 'sans-serif';
   letter-spacing: .05rem;
   margin: 0 0 0 0;
-  font: bold 2.81rem 'Roboto', 'sans-serif';
 }
 
 .nameDot {
@@ -31,8 +31,9 @@
 
 .desc {
   color: #E41376;
-  margin: 0 0 0 0;
   font: 1.3rem 'Ubuntu', 'sans-serif';
+  letter-spacing: .025rem;
+  margin: 0 0 0 0;
 }
 
 /* NAVIGATION */
@@ -44,16 +45,16 @@
 
 .arrowDown {
   fill: #fff;
+  transform: scaleX(.9) scaleY(.85);
   transition: all .35s;
 }
 
 .arrowDown:hover {
   cursor: pointer;
   fill: #E41376;
-  transform: scaleX(1.1) scaleY(1.15);
 }
 
 .arrowDown:active {
   fill: #990050;
-  transform: scale(0.9);
+  transform: scale(.8) scaleY(.7); 
 }
