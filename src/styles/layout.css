@@ -33,7 +33,9 @@
 
 body {
   background-color: #060034;
-  font: 1.2rem 'Ubuntu', 'sans-serif';
+  color: #060034;
+  font: 1.2rem 'IBMPlexSans', 'sans-serif';
+  line-height: 2rem;
   margin: 0;
   padding: 0;
 }

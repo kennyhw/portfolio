@@ -1,10 +1,10 @@
 .sectionContainer {
-  margin: 10vh 5vw 2.5vh 5vw;
-  padding: 2.5vh 20vw 2.5vh 20vw;
-  width: 90vw;
-  overflow: visible;
   background-color: white;
   border-radius: 1rem;
+  margin: 10vh 5vw 2.5vh 5vw;
+  overflow: visible;
+  padding: 2.5vh 20vw 2.5vh 20vw;
+  width: 90vw;
 }
 
 /* TITLE BAR */
@@ -14,15 +14,14 @@
 }
 
 .titleText {
+  color: #E41376;
   font: bold 2rem 'Roboto', 'sans-serif';
   margin: 2.7vh 0 .675vh 0;
-  color: #E41376;
 }
 
 /* TEXT FIELD */
 
 .textField {
-  color: #000;
   margin: .675vh 0 .675vh 0;
   text-align: center;
 }

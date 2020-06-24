@@ -1,6 +1,6 @@
 .sectionContainer {
-  height: 71vh;
-  margin: 24vh 0 5vh 0;
+  height: 73vh;
+  margin: 22vh 0 5vh 0;
   overflow: visible;
 }
 
@@ -43,7 +43,7 @@
 /* NAVIGATION */
 
 .arrowContainer {
-  margin: 16vh 0 0 0;
+  margin: 14vh 0 0 0;
   text-align: center;
 }
 
