@@ -2,6 +2,10 @@ import React from "react"
 
 import styles from "../styles/about.module.css"
 
+/*
+ * An "About Me" section containing a brief summary of myself
+ * and a row of site/social media links
+ */
 function About() {
   return (
     <section className={styles.sectionContainer}>
@@ -12,11 +16,6 @@ function About() {
       </div>
       <div className="row">
         <div className={'col-12 ' + styles.textField}>
-          <p>
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-          </p>
           <p>
             Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                 Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
