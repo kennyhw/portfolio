@@ -1,6 +1,6 @@
 .sectionContainer {
-  height: 67vh;
-  margin: 25vh 0 8vh 0;
+  height: 71vh;
+  margin: 24vh 0 5vh 0;
   overflow: visible;
 }
 
@@ -9,6 +9,10 @@
 .picContainer {
   padding: 1.5vh 0 1.5vh 0;
   text-align: center;
+}
+
+.profilePicture {
+  
 }
 
 /* TEXT */
@@ -39,7 +43,7 @@
 /* NAVIGATION */
 
 .arrowContainer {
-  margin: 15vh 0 0 0;
+  margin: 16vh 0 0 0;
   text-align: center;
 }
 
