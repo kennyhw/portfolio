@@ -11,15 +11,14 @@ function About() {
     <section className={styles.sectionContainer}>
       <div className="row">
         <div className={'col-12 ' + styles.titleBar}>
-          <h1 className={styles.titleText}>About Me</h1>
+          <h1 className={styles.titleText}>Hi there, I'm Kenny!</h1>
         </div>
       </div>
       <div className="row">
         <div className={'col-12 ' + styles.textField}>
           <p>
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
+            I'm a second-year undergraduate currently pursuing a major in Information Systems
+                and a minor in Economics at the National University of Singapore (NUS). 
           </p>
         </div>
       </div>

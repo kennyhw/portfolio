@@ -15,7 +15,7 @@
 
 .titleText {
   font: bold 2rem 'Roboto', 'sans-serif';
-  margin: 2.7vh 0 1.35vh 0;
+  margin: 2.7vh 0 .675vh 0;
   color: #E41376;
 }
 
@@ -23,14 +23,13 @@
 
 .textField {
   color: #000;
-  font: 1.3rem;
-  margin: 1.35vh 0 1.35vh 0;
+  margin: .675vh 0 .675vh 0;
   text-align: center;
 }
 
 /* ICONS BAR */
 
 .iconsBar {
-  margin: 1.35vh 0 2.7vh 0;
+  margin: .675vh 0 2.7vh 0;
   text-align: center;
 }
