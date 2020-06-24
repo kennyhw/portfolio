@@ -6,6 +6,10 @@ import scrollTo from "gatsby-plugin-smoothscroll"
 
 import styles from "../styles/header.module.css"
 
+/*
+ * Header component comprising of photo, name, description
+ * and a navigational arrow.
+ */
 function Header() {
   const data = useStaticQuery(
     graphql`
@@ -13,7 +17,7 @@ function Header() {
         file(relativePath: { eq: "assets/profile-picture.png" }) {
           childImageSharp {
             fixed(width: 175, height: 175) {
-              ...GatsbyImageSharpFixed
+              ...GatsbyImageSharpFixed_noBase64
             }
           }
         }
