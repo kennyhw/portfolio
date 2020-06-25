@@ -1,5 +1,7 @@
 import React from "react"
 
+import { GrGithub, GrLinkedinOption } from "react-icons/gr"
+
 import styles from "../styles/about.module.css"
 
 /*
@@ -27,17 +29,8 @@ function About() {
       </div>
       <div className="row">
         <div className={'col-12 ' + styles.iconsBar}>
-          <svg width="26" height="26">
-            <circle cx="13" cy="13" r="13" fill="#e41376" />
-          </svg>
-          {' '}
-          <svg width="26" height="26">
-            <circle cx="13" cy="13" r="13" fill="#e41376" />
-          </svg>
-          {' '}
-          <svg width="26" height="26">
-            <circle cx="13" cy="13" r="13" fill="#e41376" />
-          </svg>
+          <a className={styles.siteIconAnchor} href="https://github.com/kennyhw"><GrGithub className={styles.siteIcon} /></a>
+          <a className={styles.siteIconAnchor} href="https://linkedin.com/in/kenny-hermawan"><GrLinkedinOption className={styles.siteIcon} /></a>
         </div>
       </div>
     </section>

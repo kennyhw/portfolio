@@ -32,3 +32,19 @@
   margin: .675vh 0 2.7vh 0;
   text-align: center;
 }
+
+.siteIcon {
+  color: #E41376;
+  height: 2rem;
+  margin: 0 .75rem 0 .75rem;
+  transition: all .35s;
+  width: 2rem;
+}
+
+.siteIconAnchor:hover .siteIcon {
+  transform: scale(1.05);
+}
+
+.siteIconAnchor:active .siteIcon {
+  transform: scale(0.95);
+}
