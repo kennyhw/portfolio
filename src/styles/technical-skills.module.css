@@ -17,10 +17,26 @@
   margin: 2.7vh 0 .675vh 0;
 }
 
-/* TEXT FIELD */
+/* SKILl GROUPS */
 
-.textField {
-  color: #fff;
+.skillGroupContainer {
+  border: .065rem solid #E41376;
+  color: #E41376;
   margin: .675vh 0 .675vh 0;
-  text-align: center;
+  padding: 1.3vh 1.3vw 1.3vh 1.3vw;
+  transition: all .35s;
+}
+
+.skillGroupContainer:hover {
+  background-color: #E41376;
+  color: #fff;
+}
+
+.skillGroupTitle {
+  font: bold 1.2rem 'Ubuntu', 'sans-serif';
+  letter-spacing: .05rem;
+}
+
+.skillGroupText {
+
 }

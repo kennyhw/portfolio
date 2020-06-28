@@ -10,17 +10,27 @@ function TechnicalSkills() {
         </div>
       </div>
       <div className="row">
-        <div className={'col-12 ' + styles.textField}>
-          <p>
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. 
-          </p>
+        <div className="col-12">
+          <div className={styles.skillGroupContainer}>
+            <span className={styles.skillGroupTitle}>Front-End Development</span><br></br>
+            <span className={styles.skillGroupText}>React, etc</span>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-12">
+          <div className={styles.skillGroupContainer}>
+            <span className={styles.skillGroupTitle}>Front-End Development</span><br></br>
+            <span className={styles.skillGroupText}>React, etc</span>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-12">
+          <div className={styles.skillGroupContainer}>
+            <span className={styles.skillGroupTitle}>Front-End Development</span><br></br>
+            <span className={styles.skillGroupText}>React, etc</span>
+          </div>
         </div>
       </div>
     </section>
