@@ -21,7 +21,7 @@ function About() {
           <p>
             I'm a second-year undergraduate currently pursuing a major in Information Systems
                 and a minor in Economics at the National University of Singapore (NUS). Fueled by
-                a passion for problem-solving, programming, and how its products can improve the way we live, I have undertaken
+                an eagerness to learn and a passion for problem-solving, I have undertaken
                 a number of software engineering projects utilizing a plethora of different technology stacks, mainly
                 in the domain of web development.
           </p>
