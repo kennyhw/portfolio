@@ -1,9 +1,8 @@
 .sectionContainer {
-  margin: 2.5vh 5% 5vh 5%;
-  width: 90%;
-  padding: 2.5vh 10rem 2.5vh 10rem;
+  margin: 0.625vh 5vw 0.625vh 5vw;
   overflow: visible;
-  border-radius: 1rem 1rem 0 0;
+  padding: 0.625vh 0 0.625vh 0;
+  width: 90vw;
 }
 
 /* TITLE BAR */
@@ -13,14 +12,15 @@
 }
 
 .titleText {
-  font: bold 2rem 'Roboto', 'sans-serif';
-  margin: 1rem 0 .5rem 0;
   color: #E41376;
+  font: bold 2rem 'Roboto', 'sans-serif';
+  margin: 2.7vh 0 .675vh 0;
 }
 
 /* TEXT FIELD */
 
 .textField {
   color: #fff;
+  margin: .675vh 0 .675vh 0;
   text-align: center;
 }
