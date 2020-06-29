@@ -1,6 +1,6 @@
 ---
-title: Programming Languages & Technologies
 section: technical-skills
+title: Programming Languages & Technologies
 ---
 
-HTML, CSS, JavaScript
+Java, JavaScript, HTML, CSS, Ruby

@@ -1,6 +1,6 @@
 ---
-title: Front-End Frameworks
 section: technical-skills
+title: Frameworks & Libraries
 ---
 
-React
+React, Bootstrap, Ruby on Rails, Node.js, Gatsby
