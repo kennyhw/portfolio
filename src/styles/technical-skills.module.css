@@ -3,6 +3,7 @@
   overflow: visible;
   padding: 2.5vh 0 2.5vh 0;
   width: 90vw;
+  -webkit-backface-visibility: hidden;
 }
 
 /* TITLE BAR */
