@@ -1,10 +1,10 @@
 .sectionContainer {
-  margin: 2.5vh 5% 5vh 5%;
-  padding: 2.5vh 5rem 8vh 5rem;
-  overflow: visible;
-  width: 90%;
-  background-color: #fff;
+  background-color: white;
   border-radius: 1rem;
+  margin: 2.5vh 5vw 1.25vh 5vw;
+  overflow: visible;
+  padding: 2.5vh 3.75vw 2.5vh 3.75vw;
+  width: 90vw;
 }
 
 /* TITLE BAR */
@@ -14,24 +14,45 @@
 }
 
 .titleText {
+  color: #E41376;
   font: bold 2rem 'Roboto', 'sans-serif';
   margin: 1rem 0 1.2rem 0;
-  color: #E41376;
 }
 
-/* BOXES */
+/* PROJECT SHOWCASES */
 
-.box {
-  background-color: #efefef;
-  border-radius: 1rem;
+.projectContainer {
   text-align: center;
-  padding: 2rem 0 2rem 0;
+}
+
+.projectImage {
+  border-radius: 1rem;
+  transition: all .35s;
+  margin-bottom: 5px;
 }
 
 .projectTitle {
-  font: bold 1.3rem 'Ubuntu', 'sans-serif';
+  color: #E41376;
+  font: bold 1.2rem 'Roboto', 'sans-serif';
+  letter-spacing: 1px;
 }
 
 .projectDesc {
-  
+  font: 1rem 'IBmPlexSans', 'sans-serif';
+}
+
+.projectLinkIcon {
+  color: #E41376;
+  height: 2rem;
+  margin: 1rem .5rem 0 .5rem;
+  transition: all .35s;
+  width: 2rem;
+}
+
+.projectLinkIconAnchor:hover .projectLinkIcon {
+  transform: scale(1.05);
+}
+
+.projectLinkIconAnchor:active .projectLinkIcon {
+  transform: scale(0.95);
 }
