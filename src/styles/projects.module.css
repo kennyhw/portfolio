@@ -27,13 +27,14 @@
 
 .projectImage {
   border-radius: 1rem;
-  transition: all .35s;
   margin-bottom: 5px;
+  transition: all .35s;
 }
 
 .projectTitle {
   color: #E41376;
   font: bold 1.2rem 'Roboto', 'sans-serif';
+  letter-spacing: .5px;
 }
 
 .projectDesc {

@@ -1,9 +1,9 @@
 .sectionContainer {
+  -webkit-backface-visibility: hidden;
   margin: 3vh 5vw 6.45vh 5vw;
   overflow: visible;
   padding: 2.5vh 0 2.5vh 0;
   width: 90vw;
-  -webkit-backface-visibility: hidden;
 }
 
 /* TITLE BAR */

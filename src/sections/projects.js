@@ -6,6 +6,11 @@ import { GoLink, GoRepo } from "react-icons/go"
 
 import styles from "../styles/projects.module.css"
 
+/*
+ * A section showcasing all the projects
+ * that I have done. Details of the projects are
+ * managed in markdown files.
+ */
 function Projects() {
   const data = useStaticQuery(
     graphql`

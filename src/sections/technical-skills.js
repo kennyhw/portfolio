@@ -6,7 +6,7 @@ import styles from "../styles/technical-skills.module.css"
 
 /*
  * A section listing the technologies and libraries/frameworks
- * that I have worked with
+ * that I have worked with.
  */
 function TechnicalSkills() {
   const data = useStaticQuery(
