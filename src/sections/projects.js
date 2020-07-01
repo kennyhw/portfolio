@@ -10,10 +10,30 @@ function Projects() {
   const data = useStaticQuery(
     graphql`
       query {
-        file(relativePath: { eq: "assets/projects-image/01-checkmark.png" }) {
-          childImageSharp {
-            fixed(width: 300, height: 220) {
-              ...GatsbyImageSharpFixed_noBase64
+        allFile(filter: {relativeDirectory: {eq: "assets/projects-image"}}) {
+          edges {
+            node {
+              id
+              name
+              childImageSharp {
+                fixed(width: 300, height: 220) {
+                  ...GatsbyImageSharpFixed_noBase64
+                }
+              }
+            }
+          }
+        }
+        allMarkdownRemark(filter: {frontmatter: {section: {eq: "projects"}}}) {
+          edges {
+            node {
+              id
+              frontmatter {
+                title
+                imgfilename
+                sitelink
+                repolink
+              }
+              excerpt
             }
           }
         }
@@ -29,36 +49,17 @@ function Projects() {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-4">
-          <div className={styles.projectContainer}>
-          <Img className={styles.projectImage} fixed={data.file.childImageSharp.fixed} alt="CheckMark" draggable="False"/>
-            <span className={styles.projectTitle}>CheckMark</span><br></br>
-            <span className={styles.projectDesc}>A to-do list application built with React and Ruby on Rails</span><br></br>
-            <a className={styles.projectLinkIconAnchor} href=""><GoLink className={styles.projectLinkIcon} /></a>
-            <a className={styles.projectLinkIconAnchor} href=""><GoRepo className={styles.projectLinkIcon} /></a>
+        {data.allMarkdownRemark.edges.map(({ node }) => (
+          <div className="col-md-4">
+            <div className={styles.projectContainer}>
+            <Img className={styles.projectImage} fixed={data.allFile.edges.find(image => image.node.name === node.frontmatter.imgfilename).node.childImageSharp.fixed} alt={node.frontmatter.title} draggable="False" />
+              <span className={styles.projectTitle}>{node.frontmatter.title}</span><br></br>
+              <span className={styles.projectDesc}>{node.excerpt}</span><br></br>
+              {node.frontmatter.sitelink === "none" ? <span></span> : <a className={styles.projectLinkIconAnchor} href={node.frontmatter.sitelink}><GoLink className={styles.projectLinkIcon} /></a>}
+              {node.frontmatter.repolink === "none" ? <span></span> : <a className={styles.projectLinkIconAnchor} href={node.frontmatter.repolink}><GoRepo className={styles.projectLinkIcon} /></a>}
+            </div>
           </div>
-        </div>
-        <div className="col-md-4">
-          <div className={styles.projectContainer}>
-            <svg width="400" height="220">
-              <rect width="300" height="220" />
-            </svg>
-            <h3>Title</h3>
-            <p>
-              Description
-            </p>
-          </div>
-        </div><div className="col-md-4">
-          <div className={styles.projectContainer}>
-            <svg width="400" height="220">
-              <rect width="300" height="220" />
-            </svg>
-            <h3>Title</h3>
-            <p>
-              Description
-            </p>
-          </div>
-        </div>
+        ))}
       </div>
     </section>
   );
