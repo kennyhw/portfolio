@@ -28,7 +28,7 @@ function Projects() {
             }
           }
         }
-        allMarkdownRemark(filter: {frontmatter: {section: {eq: "projects"}}}) {
+        allMarkdownRemark(filter: {frontmatter: {section: {eq: "projects"}}}, sort: {fields: [frontmatter___date], order: DESC}) {
           edges {
             node {
               id
@@ -37,6 +37,7 @@ function Projects() {
                 imgfilename
                 sitelink
                 repolink
+                date
               }
               excerpt
             }
