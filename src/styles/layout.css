@@ -1,31 +1,37 @@
 @font-face {
+  font-display: swap;
   font-family: "Roboto";
   src: url('../fonts/Roboto-Regular.ttf');
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Roboto";
   font-weight: bold;
   src: url('../fonts/Roboto-Bold.ttf');
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Ubuntu";
   src: url('../fonts/Ubuntu-Regular.ttf');
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Ubuntu";
   font-weight: bold;
   src: url('../fonts/Ubuntu-Bold.ttf');
 }
 
 @font-face {
+  font-display: swap;
   font-family: "IBMPlexSans";
   src: url('../fonts/IBMPlexSans-Regular.ttf');
 }
 
 @font-face {
+  font-display: swap;
   font-family: "IBMPlexSans";
   font-weight: bold;
   src: url('../fonts/IBMPlexSans-Bold.ttf');
