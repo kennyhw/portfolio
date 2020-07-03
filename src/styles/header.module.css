@@ -40,6 +40,16 @@
   margin: 0 0 0 0;
 }
 
+@media (max-width: 450px) {
+  .name {
+    font: bold 2.5rem 'Roboto', 'sans-serif';
+  }
+
+  .desc {
+    font: 1.2rem 'Ubuntu', 'sans-serif';
+  }
+}
+
 /* NAVIGATION */
 
 .arrowContainer {

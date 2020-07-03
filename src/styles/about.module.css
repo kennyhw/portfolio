@@ -7,6 +7,12 @@
   width: 90vw;
 }
 
+@media (max-width: 450px) {
+  .sectionContainer {
+    padding: 2.5vh 7.5vw 2.5vh 7.5vw;
+  }
+}
+
 /* TITLE BAR */
 
 .titleBar {
