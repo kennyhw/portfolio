@@ -1,9 +1,35 @@
 .sectionContainer {
-  margin: 0 5% 5vh 5%;
-  width: 90%;
+  -webkit-backface-visibility: hidden;
+  color: #E41376;
+  margin: 3vh 5vw 6.45vh 5vw;
+  overflow: visible;
+  padding: 2.5vh 0 2.5vh 0;
+  text-align: center;
+  width: 90vw;
 }
 
-.flair {
+.siteLogo {
+  margin: 10vh 0 2vh 0;
+}
+
+.contactContainer {
+  margin: 2vh 0 4vh 0;
+}
+
+.contactDetails {
+  color: #fff;
+  font: 1.1rem 'Roboto', 'sans-serif';
+  letter-spacing: 1px;
+}
+
+.contactEmail {
   color: #E41376;
-  margin: 0;
+}
+
+.footerContainer {
+  margin: 4vh 0 0 0;
+}
+
+.footerDetails {
+  color: #E41376;
 }
