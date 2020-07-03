@@ -2,11 +2,13 @@ import React from "react"
 
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { FaCopyright } from "react-icons/fa"
 
 import styles from "../styles/contact.module.css"
 
 /*
- * Page footer
+ * Footer section containing my email address
+ * and some other things
  */
 function Contact() {
   const data = useStaticQuery(
@@ -31,12 +33,13 @@ function Contact() {
           <div className={styles.contactContainer}>
             <span className={styles.contactDetails}>
               Get in touch!<br></br>
-              <span className={styles.contactEmail}>kennyhermawan7@gmail.com</span>
+              <a className={styles.contactEmail} href="mailto:kennyhermawan7@gmail.com">kennyhermawan7@gmail.com</a>
             </span>
           </div>
-          <div className={styles.footerContainer}>
-            <span className={styles.footerDetails}>
-              Copyright
+          <div className={styles.copyrightContainer}>
+            <FaCopyright className={styles.copyrightIcon} />
+            <span className={styles.copyrightText}>
+              2020
             </span>
           </div>
         </div>
