@@ -6,16 +6,22 @@
   width: 90vw;
 }
 
-/* TITLE BAR */
+/* TITLE AND DESCRIPTION BAR */
 
-.titleBar {
+.titleAndDescBar {
   text-align: center;
+  margin: 3vh 0 3.5vh 0;
 }
 
 .titleText {
   color: #E41376;
   font: bold 2rem 'Roboto', 'sans-serif';
-  margin: 2.7vh 0 4vh 0;
+  margin: 0 0 3.5vh 0;
+}
+
+.descText {
+  color: #fff;
+  text-align: center;
 }
 
 /* SKILl GROUPS */

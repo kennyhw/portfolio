@@ -50,8 +50,9 @@ function Projects() {
   return (
     <section className={styles.sectionContainer}>
       <div className="row">
-        <div className={'col-12 ' + styles.titleBar}>
-          <h1 className={styles.titleText}>Projects</h1>
+        <div className={'col-12 ' + styles.titleAndDescBar}>
+          <h1 className={styles.titleText}>My Projects</h1>
+          <span className={styles.descText}>Here are some of the things that I've worked on.</span>
         </div>
       </div>
       <div className="row">

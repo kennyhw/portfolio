@@ -30,8 +30,9 @@ function TechnicalSkills() {
   return (
     <section className={styles.sectionContainer}>
       <div className="row">
-        <div className={'col-12 ' + styles.titleBar}>
-          <h1 className={styles.titleText}>Technical Skills</h1>
+        <div className={'col-12 ' + styles.titleAndDescBar}>
+          <h1 className={styles.titleText}>My Toolbox</h1>
+          <span className={styles.descText}>Here are the tools and technologies that I'm familiar with.</span>
         </div>
       </div>
       {data.allMarkdownRemark.edges.map(({ node }) => (
