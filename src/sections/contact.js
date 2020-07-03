@@ -14,7 +14,7 @@ function Contact() {
   const data = useStaticQuery(
     graphql`
       query {
-        file(relativePath: { eq: "assets/logo.png" }) {
+        file(relativePath: { eq: "assets/logo-2.png" }) {
           childImageSharp {
             fixed(width: 48, height: 48) {
               ...GatsbyImageSharpFixed_noBase64
