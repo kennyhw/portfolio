@@ -14,7 +14,7 @@ function Header() {
   const data = useStaticQuery(
     graphql`
       query {
-        file(relativePath: { eq: "assets/profile-picture.png" }) {
+        file(relativePath: { eq: "assets/profile-picture-2-bordered-white.png" }) {
           childImageSharp {
             fixed(width: 175, height: 175) {
               ...GatsbyImageSharpFixed_noBase64
