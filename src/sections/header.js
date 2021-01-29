@@ -36,7 +36,7 @@ function Header() {
         <div className={'col-12 ' + styles.textContainer}>
           <span className={styles.name}>Kenny Hermawan<span className={styles.nameDot}>.</span></span>
           <br></br>
-          <span className={styles.desc}>Aspiring Software Developer | Undergraduate @ NUS</span>
+          <span className={styles.desc}>Tech Enthusiast | NUS Information Systems</span>
         </div>
       </div>
       <div className="row">
